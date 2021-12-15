@@ -1,0 +1,32 @@
+.vipul,.vipul2
+{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+.vipul1,.vipul3
+{
+    height: 100px;
+    width: 100px;
+    float : right;
+    margin: 5px;
+    border-radius: 10px;
+}
+.border,.border1,.border2,.border3
+{
+    background-color: rgba(114, 252, 222, 0.404);
+    height: 110px;
+    border-radius : 5px;
+    margin: 15px;
+    color: rgb(255, 51, 0);
+    padding: 5px;
+}
+body
+{
+    background-color : wheat;
+    margin: 5px;
+}
+
+

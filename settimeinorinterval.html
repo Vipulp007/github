@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title></title>
+            <body>
+                <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto neque a at, reprehenderit eligendi quos sint. Officia cupiditate cumque quibusdam pariatur! Aut unde ullam magnam enim laboriosam numquam iste.</div>
+                <div id="time"></div>
+            </body>
+            <script>
+                function greet() {
+                    console.log("this is container");
+                }
+            //    timeout= setTimeout(greet,2000);
+            //    console.log(timeout);
+            //     // clearTimeout(timeout);
+
+            //    timeout=  setInterval(greet, 1000);
+            //    console.log(timeout);
+
+               function date() {
+                   time= new Date();    
+                   document.getElementById('time').innerHTML=time;
+               }
+               setInterval(date, 1000);
+            </script>
+    </head>
+</html>

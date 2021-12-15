@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title></title>
+        <body>
+            <div id="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto optio est quae, libero maiores omnis quia fugit. Quidem odio veniam tempora exercitationem esse. Velit accusamus alias itaque numquam consequuntur error?</div>
+            <button id="btn">Agree</button>
+        </body>
+        <script>
+            let container=document.getElementById('container')
+            container.addEventListener('mouseover', function frun()
+            {
+                console.log(`dont'alow`)
+            });
+            container.addEventListener('mouseout', function frun()
+            {
+                console.log(`alow`)
+            });
+
+            let btn = document.getElementById('btn')
+            btn.addEventListener('contextmenu', function frun(){
+                alert('hello')
+            });
+        </script>
+    </head>
+</html>

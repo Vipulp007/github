@@ -1,0 +1,41 @@
+.font{
+    line-height: 35px;
+    text-align: center;
+    background-color: rgb(62, 241, 39);
+    height: 40px;
+    letter-spacing: 1px;
+    margin-top: 0%;
+    width: 100%;
+}
+hr{
+    margin-top: 0%;
+    border: 2px solid rgb(62, 241, 39);
+}
+.name,.email,.Address
+{
+    word-spacing: 5px;
+    margin-left: 2%;
+   padding : 4px;
+   width: 98%;
+}
+.submit
+{
+    background-color: rgb(62, 241, 39);
+    font-weight: bold;
+    border: 2px solid rgba(118, 247, 167, 0.623);
+    margin-left: 32%;
+    width: 35%;
+    height: 30px;
+    cursor: pointer;
+}
+.box
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding : 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    margin: 25% ;
+    height: 62%;
+    background-color: #f2f2f2;
+}

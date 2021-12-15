@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            .hello{
+                color: red;
+            }
+        </style>
+        <body>
+            <div id="items"><h1>hello</h1></div>
+        <div class="container" id="item1">
+            <ul id="nav" >
+                <li class="item">home</li>
+                <li class="item">about</li>
+            </ul>
+        </div>
+        <div class="container">Another container</div>
+        </body>
+        <script>
+            let numbers = [];
+            let count=1;
+            output = () =>{
+                if(count % 5==0 && count % 3==0)
+                {
+                    numbers.push('fizzbuzz');
+                }
+               else if(count % 5==0)
+                {
+                    numbers.push('buzz');
+                }
+                else if(count % 3==0)
+                {
+                    numbers.push('fizz');
+                }
+                else
+                {
+                    numbers.push(count);
+                }
+                count++;
+                console.log(numbers)
+            }
+        output();
+
+        let names = ['rdj','ce','ch','sj'];
+        let nam= prompt("write your naame");
+        if (names.includes(nam)) {
+            alert("your data found")
+        }
+        else{
+            alert("false")
+        }
+</script>
+    </head>
+</html>

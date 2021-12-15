@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title></title>
+        <body>
+            
+        </body>
+    </head>
+    <script>
+        // simple function
+        // function display()
+        // {
+        //     console.log("hello")
+        // }
+        // display();
+
+        // arrow funtion
+        display = () => {
+            console.log("hello");
+        }
+        display();
+        
+        // shortcut of return in arrow function
+        let sum = a => a/2;
+        // let sum1=(a,b) => a*b;
+        let sum1 = (a,b) => {
+            return a*b
+        }
+        
+        let object= {
+            names:['vipul','djchetas'],
+            greetig: 'good morning',
+            speak()
+            {
+                this.names.forEach(element => {
+                    console.log( this.greetig + ' my name is ' + element);
+                });
+            }
+        }
+        object.speak();
+
+    // math function
+    prompt("what is your name");
+    prompt("what is your loved ones name");
+    let n = Math.random()*100;
+    n=Math.floor(n);
+    alert("your love score is " + n + "%"); 
+    </script>
+</html>

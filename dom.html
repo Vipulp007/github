@@ -1,0 +1,33 @@
+
+        <html>
+            <head>
+                <title></title>
+                <body>
+                    <div id="items">how</div>
+                <div class="container" id="item1">
+                    <ul id="nav" >
+                        <li >home</li>
+                        <li>about</li>
+                    </ul>
+                </div>
+                <div class="container">Another container</div>
+                </body>
+                <script>
+         document.getElementById('items').innerHTML = '<h1> HII !</h1>'
+        let containers = document.getElementsByClassName('container');
+        console.log(containers);
+
+        containers=document.querySelector('.container');
+        console.log(containers)
+
+        containers=document.querySelector('#item1>ul');
+        console.log(containers)
+
+        // containers=document.querySelector('#nav>li');
+        // console.log(containers)
+
+        containers=document.querySelectorAll('#nav>li');
+        console.log(containers)
+        </script>
+    </head>
+</html>

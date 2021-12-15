@@ -1,0 +1,19 @@
+body{
+    background-color: darkgray;
+}
+/* ul{
+    color: red;
+} */
+ol{
+    color: blue;
+}
+li.ab,a.a:hover{
+    color: red;
+    text-decoration: none;
+}
+/* h2+b{
+    color: red;
+} */
+/* pr+b{
+    color: cornflowerblue;
+} */

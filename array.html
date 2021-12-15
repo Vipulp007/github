@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title></title>
+        <body>
+            <div id="items">how</div>
+        <div class="container" id="item1">
+            <ul id="nav" >
+                <li >home</li>
+                <li>about</li>
+            </ul>
+        </div>
+        <div class="container">Another container</div>
+        </body>
+        <script>
+
+            var a = "this is my my first JAVASCRIPT"
+            var b = "Vipul"
+            document.getElementById('items').innerHTML = '<h1> HII !</h1>'
+            // document.getElementById('item1').innerHTML = '<h1> HII !</h1>'
+
+            console.log(b.length);
+            console.log(a.indexOf('my')) //positon of the element . It start form Zer0
+            console.log(a.lastIndexOf('is')) //positon of the element . It start form Zer0
+            
+            var y = b.toUpperCase()
+            console.log(y)
+
+            y=b.toLowerCase()
+            console.log(y)
+
+            console.log(a.slice(5,14))
+            console.log(a.substr(5,14))
+            console.log(a.substring(5,14))
+
+            var x = a.replace('my','hii')
+            console.log(x)
+            console.log(a)
+
+            var c = b.concat('! ',a)
+            console.log(c);
+
+            let names = ['rdj','ce','ch','sj'];
+            function randomnam(nam) {
+                let n = Math.floor(Math.random() *names.length)
+                console.log(nam[n])
+            }
+            randomnam(names)
+        </script>
+    </head>
+</html>

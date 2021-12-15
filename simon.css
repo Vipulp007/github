@@ -1,0 +1,47 @@
+body
+{
+    background-color: rgba(128, 128, 128, 0.438);
+}
+h1{
+    text-align: center;
+}
+.level
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container,.container2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color
+{
+    padding : 25px;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.red
+{
+    background-color: red;
+    color: red;
+}
+.blue
+{
+    background-color: blue;
+    color: blue;
+}
+.green
+{
+    background-color: green;
+    color: green;
+}
+.yellow
+{
+    background-color: yellow;
+    color: yellow;
+}

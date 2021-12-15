@@ -1,0 +1,55 @@
+body
+{
+    background-color: rgba(0, 255, 157, 0.432);
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.refresh
+{
+    color: red;
+    font-style: italic;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+.winner
+{
+    text-align: center;
+    color: blue;
+    padding: 50px 0px 30px 0px;
+}
+.image
+{
+   padding:0px 30px 0px 30px
+}
+.item
+{
+    color: darkorange;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.division
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pic
+{
+    border-radius: 50%;
+    width: 50px;
+}
+footer
+{
+    font-weight: bolder;
+    background-color: rgba(119, 136, 153, 0.561);
+}
+.h1
+{
+    color: darkgreen;
+}

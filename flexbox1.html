@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            .container
+            {
+                background-color: gold;
+                display: flex;
+                color: white;
+            }
+            .one
+            {
+                border: 2px solid black;
+                margin: 2px;
+                background-color: red;
+                width: 500px;
+                height: 150px;
+                border-radius: 5px;
+                text-align: center;
+            }
+            .row1,.row2,.row3
+            {
+                display: flex;
+                flex-direction: row;
+            }
+            .row11
+            {
+                background-color: black;
+                margin: 2px;
+                width: 135px;
+                height: 30px;
+                border-radius: 5px;
+                text-align: center;
+                padding-top: 10px;
+            }
+            .row12
+            {
+                background-color: black;
+                margin: 2px;
+                width: 100px;
+                height: 30px;
+                border-radius: 5px;
+                text-align: center;
+                padding-top: 10px;   
+            }
+            .row13
+            {
+                background-color: black;
+                margin: 2px;
+                width: 79px;
+                height: 30px;
+                border-radius: 5px;
+                text-align: center;
+                padding-top: 10px;
+            }
+        </style>
+        <body>
+            <div class="container">
+            <div class="one">1
+                <div class="row1">
+                    <div class="row11 r11">1</div>
+                    <div class="row11 r12">2</div>
+                    <div class="row11 r13">3</div>
+                </div>
+                <div class="row2">
+                    <div class="row12">1</div>
+                    <div class="row12">2</div>
+                    <div class="row12">3</div>
+                    <div class="row12">4</div>
+                </div>
+                <div class="row3">
+                    <div class="row13">1</div>
+                    <div class="row13">2</div>
+                    <div class="row13">3</div>
+                    <div class="row13">4</div>
+                    <div class="row13">5</div>
+                </div>
+            </div>
+            <div class="one">2</div>
+            <div class="one">3</div>
+            </div>
+        </body>
+    </head>
+</html>
