@@ -2,6 +2,8 @@ let color = ['red','blue','green','yellow'];
 let usercolor = [];
 let computercolor = [];
 let click = -1;
+let level =0;
+let count =0;
 
 $('.color').click(function(event)
 {
@@ -15,12 +17,15 @@ $('.color').click(function(event)
         {
         usercolor = [];
         click=-1;
+        count++;
         nextsequence();
         }
+    $(".level").html("level - " + count);
     }
-
-    else{
-        alert("incorrect")
+    else
+    {
+        count=0;
+        $("#start").text("GAME OVER REFRESH TO RESTART")
     }
    
 });
@@ -39,4 +44,11 @@ function animation(id)
     $(id).fadeOut(100).fadeIn(100);
 }
 
-nextsequence();
+$(document).keydown(function (){
+{
+    if(level<=0)
+    {
+    nextsequence();
+    }
+}
+});
