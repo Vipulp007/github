@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T17:40:59.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wdLgL7HAW6IZ7qMkmDd3" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T17:43:26.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PSXpuaEPcz2xX-6bTo9q" version="21.1.5" type="github">
   <diagram name="Page-1" id="RpUvLiMhU6sr2RmkWBgE">
-    <mxGraphModel dx="463" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1176" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="427" y="220" width="55" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-6" value="doctor is not&lt;br&gt;available" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;labelBackgroundColor=#ffffff;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="580" y="225" width="120" height="40" as="geometry" />
+          <mxGeometry x="650" y="225" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9DXf2AfMklftnRWy2twK-8" target="9DXf2AfMklftnRWy2twK-10">
           <mxGeometry relative="1" as="geometry" />
@@ -82,33 +82,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-28" value="Doctor attains&amp;nbsp;&lt;br&gt;patient" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;labelBackgroundColor=#ffffff;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="583.5" y="415" width="120" height="41" as="geometry" />
+          <mxGeometry x="652" y="415" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-31" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-circle-filled-128.png" vertex="1" parent="1">
-          <mxGeometry x="614.5" y="492" width="58" height="58" as="geometry" />
+          <mxGeometry x="683" y="492" width="58" height="58" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="9DXf2AfMklftnRWy2twK-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="644" y="265" as="sourcePoint" />
+            <mxPoint x="709" y="264" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-circle-filled-128.png" vertex="1" parent="1">
-          <mxGeometry x="614.5" y="301" width="58" height="58" as="geometry" />
+          <mxGeometry x="680" y="304" width="58" height="58" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-37" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="523.5" y="220" width="60" height="30" as="geometry" />
+          <mxGeometry x="589.5" y="220" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-38" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="367" y="680" width="60" height="15" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-39" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="523.5" y="415" width="60" height="30" as="geometry" />
+          <mxGeometry x="596.5" y="415" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-41" value="receptionist checks for doctor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="195" width="110" height="30" as="geometry" />
+          <mxGeometry x="482" y="214" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-42" value="patient needs to be operated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="385" width="110" height="30" as="geometry" />
+          <mxGeometry x="486" y="405" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9DXf2AfMklftnRWy2twK-43" value="patient ok" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="473.5" y="665" width="110" height="30" as="geometry" />
